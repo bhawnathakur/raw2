@@ -83,10 +83,10 @@ export class ProfileComponent implements OnInit {
             last_name : new FormControl (null,Validators.required,Validators.pattern("/^[a-z0-9]+$/i")),
             dob : new FormControl (null,Validators.required),
             mobile_phone : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/"")),
-            home_phone : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/")),
-            business_phone : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/")),
-            fax_number : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/")),
-            ssn : new FormControl (null,Validators.required,Validators.pattern("/^\d{3}-?\d{2}-?\d{4}$/")),
+            home_phone : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/"")),
+            business_phone : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/"")),
+            fax_number : new FormControl (null,Validators.required,Validators.pattern("/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/"")),
+            ssn : new FormControl (null,Validators.required,Validators.pattern("/^\d{3}-?\d{2}-?\d{4}$/"")),
         })
 
     }
